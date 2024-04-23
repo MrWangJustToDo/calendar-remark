@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
-import react from '@vitejs/plugin-react-swc';
+// import react from '@vitejs/plugin-react-swc';
 // waiting this pr merge https://github.com/gpbl/react-day-picker/pull/2076
-// import react from "@my-react/react-vite";
+import react from "@my-react/react-vite";
 import { VitePWA, VitePWAOptions } from "vite-plugin-pwa";
 import gzipPlugin from "rollup-plugin-gzip";
 import path from "path";
